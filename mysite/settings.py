@@ -26,7 +26,7 @@ SECRET_KEY = "y5k6(cnl$z+)5!w#@^0+4ytqcl$ma+3-y10ns9z_$nd3f1yib8"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://djangopollsapps.herokuapp.com/","127.0.0.1" ]
+ALLOWED_HOSTS = ["https://djangopollsapps.herokuapp.com/", "127.0.0.1"]
 
 
 # Application definition
@@ -80,10 +80,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "d3jev30d5ghr87",
         "HOST": "ec2-54-156-53-71.compute-1.amazonaws.com",
-        "PORT": 5432 ,
-        "USER":"ukqivujrdxbsnx",
-        "PASSWORD":"bb813eab09eead8cff74f4abb6d2b206ab29842e476b93e7e98664ce4374d668"
-
+        "PORT": 5432,
+        "USER": "ukqivujrdxbsnx",
+        "PASSWORD": "bb813eab09eead8cff74f4abb6d2b206ab29842e476b93e7e98664ce4374d668",
     }
 }
 
@@ -118,6 +117,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = "/static/"
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 django_heroku.settings(locals(), test_runner=False)
