@@ -1,3 +1,7 @@
+
+[![Build Status](https://travis-ci.com/shivangpandya/swe1-app.svg?branch=master)](https://travis-ci.com/shivangpandya/swe1-app)
+
+
 # swe1-app
 Django Polls App
 
