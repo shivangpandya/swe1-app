@@ -1,6 +1,8 @@
 
 [![Build Status](https://travis-ci.com/shivangpandya/swe1-app.svg?branch=master)](https://travis-ci.com/shivangpandya/swe1-app)
 
+[![Coverage Status](https://coveralls.io/repos/github/shivangpandya/swe1-app/badge.svg?branch=master)](https://coveralls.io/github/shivangpandya/swe1-app?branch=master)
+
 
 # swe1-app
 Django Polls App
