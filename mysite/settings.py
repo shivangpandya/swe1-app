@@ -10,20 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-<<<<<<< HEAD
-import os
-import django_heroku
-from pathlib import Path
-
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = Path(__file__).resolve().parent.parent
-"""BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))"""
-=======
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
->>>>>>> 85607ca3d429ac9fea8b4cc3b5dce3c0233db43d
 
 
 # Quick-start development settings - unsuitable for production
@@ -41,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "polls.apps.PollsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -87,20 +76,11 @@ WSGI_APPLICATION = "mysite.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-<<<<<<< HEAD
-        "NAME": [os.path.join(BASE_DIR, "db.sqlite3")],
-=======
         "NAME": BASE_DIR / "db.sqlite3",
->>>>>>> 85607ca3d429ac9fea8b4cc3b5dce3c0233db43d
     }
 }
 
 
-<<<<<<< HEAD
-# Postgres DB to deploy on heroku
-
-=======
->>>>>>> 85607ca3d429ac9fea8b4cc3b5dce3c0233db43d
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
